@@ -10,5 +10,5 @@ conda env list
 
 # Create an environment 
 
-conda create --name myenv
+conda create --name name-of-environment
 
