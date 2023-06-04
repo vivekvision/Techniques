@@ -12,3 +12,6 @@ conda env list
 
 conda create --name name-of-environment
 
+# Remove an environment 
+
+conda remove --name name-of-environment --all
