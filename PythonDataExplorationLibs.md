@@ -27,3 +27,17 @@ from ipywidgets import interact
 @interact 
 def .....
     ........
+
+
+# jupyter-datatables brings distribution plots part of the standard DataFrame 
+
+pip install jupyter-datatables
+
+
+
+import numpy as np
+import pandas as pd
+
+from jupyter_datatables import init_datatables_mode
+
+init_datatables_mode()
